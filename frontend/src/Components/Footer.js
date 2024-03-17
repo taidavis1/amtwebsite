@@ -3,45 +3,22 @@ import Logo from "../img/Logo.png";
 
 export default function Footer(){
     return(
-        <footer className="bg-white cursor-pointer">
+        <footer className="bg-gray-300 cursor-pointer">
             <div className="mx-auto max-w-screen-xl px-6 pb-6 pt-16 lg:px-8 lg:pt-24">
                 <div className="grid lg:space-x-12 grid-cols-1 gap-12 lg:grid-cols-3">
                     <div className="grid justify-items-center">
                         <div>
                             <div className=" flex items-center flex-col">
-                                <h2 className="flex md:hidden text-2xl font-Lora italic tracking-wider font-bold text-gray-900">M Spa Beauty</h2>
-                                <h2 className="flex md:hidden text-xl font-Lora italic font-thin tracking-wider text-gray-900">Lash & Nail</h2>
+                                <h2 className="flex md:hidden text-2xl font-Lora italic tracking-wider font-bold text-main-color">AMT </h2>
+                                <h2 className="flex md:hidden text-xl font-Lora italic font-thin tracking-wider text-main-color">Digital Marketing</h2>
                             </div>
                             <img alt ="#" className="md:w-28 hidden md:flex" src={Logo} />
                         </div> 
                         <p className="mt-6 max-w-md tracking-wide leading-relaxed text-gray-500 sm:max-w-xs sm:text-left">
-                                    A leading nail salon located in the heart of Plano, Texas. Our salon is the perfect destination for those looking 
-                                    to indulge in a bit of pampering and self-care, while also seeking innovative beauty solutions 
-                                    tailored specifically to their needs.
+                            A trailblazing marketing firm dedicated to elevating brands in the beauty industry. 
+                            Specializing in innovative solutions and personalized strategies, we are your go-to partner for transforming your 
+                            nail salon into a destination for pampering and self-care.
                         </p>
-                
-                        <ul className="mt-8 flex justify-center gap-6 md:gap-8">
-                            <li className="">
-                                <a href="https://www.yelp.com/biz/m-spa-and-beauty-nails-plano-3" target="_blank" className="text-teal-700 transition hover:text-teal-700/75">
-                                    <img src="https://img.icons8.com/fluent/30/000000/yelp.png"/>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="mailto:mspabeautynails@gmail.com" target="_blank" className="text-teal-700 transition hover:text-teal-700/75">
-                                    <img src="https://img.icons8.com/fluent/30/000000/gmail-new.png"/>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.instagram.com/mspabeautynails/" target="_blank" className="text-teal-700 transition hover:text-teal-700/75">
-                                    <img src="https://img.icons8.com/fluent/30/000000/instagram-new.png"/>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.google.com/maps/place/M+Spa+%26+Beauty+Nails/@33.0022604,-96.7675107,17z/data=!3m1!4b1!4m6!3m5!1s0x864c22114ed50c57:0xf813007a332e70df!8m2!3d33.0022559!4d-96.7649304!16s%2Fg%2F11bx1s17w_?entry=ttu" target="_blank" className="text-teal-700 transition hover:text-teal-700/75">
-                                    <img src="https://img.icons8.com/fluency/30/google-logo.png"/>
-                                </a>
-                            </li>
-                        </ul>
                     </div>
                     <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4 lg:col-span-2">
                         <div className="text-center sm:text-left">
@@ -52,21 +29,6 @@ export default function Footer(){
                                         Home
                                     </a>
                                 </li>
-                                <li>
-                                    <a  href="/Services" className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                        Services
-                                    </a>
-                                </li>
-                                <li>
-                                    <a  href="/Gallery" className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                        Galery
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.fresha.com/a/m-spa-beauty-nails-plano-308-south-coit-road-yva9f2lc/booking?pId=1162111" target="_blank" className="transition text-black t-underline t-underline-black border-b-yellow-500">
-                                        Booking
-                                    </a>
-                                </li>
                             </ul>
                         </div>
                         <div className="text-center sm:text-left">
@@ -74,37 +36,29 @@ export default function Footer(){
                             <ul className="mt-8 space-y-4 text-sm">
                                 <li>
                                     <a target="_blank" href="/Services" className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                        Manicure
+                                        Website development
                                     </a>
                                 </li>
                                 <li>
                                     <a target="_blank" href="/Services" className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                        Pedicure
+                                        Digital Marketing
                                     </a>
                                 </li>
                                 <li>
                                     <a target="_blank" href="/Services" className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                        Waxing
+                                        Booking App
                                     </a>
                                 </li>
                                 <li>
                                     <a target="_blank" href="/Services" className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                        Polish Change
+                                        Search Engine Optimize
                                     </a>
                                 </li>
+                                
+                               
                                 <li>
                                     <a target="_blank" href="/Services" className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                        Eyelash Extension
-                                    </a>
-                                </li>
-                                <li>
-                                    <a target="_blank" href="/Services" className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                        Eyebrows Laminate
-                                    </a>
-                                </li>
-                                <li>
-                                    <a target="_blank" href="/Services" className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                        Eyebrows Microblading
+                                        Graphic Design
                                     </a>
                                 </li>
                             </ul>
@@ -114,37 +68,37 @@ export default function Footer(){
                             <ul className="mt-8 space-y-4 text-sm">
                                 <li>
                                     <a className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                        Mon: 9:30 am - 7:30 pm
+                                        Mon: 9:00 am - 7:30 pm
                                     </a>
                                 </li>
                                 <li>
                                     <a className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                        Tues: 9:30 am - 7:30 pm
+                                        Tues: 9:00 am - 7:30 pm
                                     </a>
                                 </li>
                                 <li>
                                     <a className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                        Wed: 9:30 am - 7:30 pm
+                                        Wed: 9:00 am - 7:30 pm
                                     </a>
                                 </li>
                                 <li>
                                     <a className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                        Thu: 9:30 am - 7:30 pm
+                                        Thu: 9:00 am - 7:30 pm
                                     </a>
                                 </li>
                                 <li>
                                     <a className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                        Fri: 9:30 am - 7:30 pm
+                                        Fri: 9:00 am - 7:30 pm
                                     </a>
                                 </li>
                                 <li>
                                     <a className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                        Sat: 9:00 am - 7:00 pm
+                                        Sat: 9:00 am - 7:30 pm
                                     </a>
                                 </li>
                                 <li>
                                     <a className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                        Sun: 12:00 pm - 6:00 pm
+                                        Sun: 9:00 am - 7:30 pm
                                     </a>
                                 </li>
                             </ul>

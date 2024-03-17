@@ -17,12 +17,12 @@ function Navbar(){
     const Icon_Style = {fontSize: '22',};
     return (
         <div className="">
-            <nav className= {Scroll?"bg-black transition ease-out duration-200 delay-100 flex justify-between lg:justify-around w-full fixed top-0 left-0 right-0 z-10 ":"flex text-white justify-between lg:justify-around bg-none w-full fixed top-0 left-0 right-0 z-10"}>
+            <nav className= {Scroll?"bg-black px-2 transition ease-out duration-200 delay-100 flex justify-between lg:justify-around w-full fixed top-0 left-0 right-0 z-10 ":"flex text-white justify-between lg:justify-around bg-none px-2 w-full fixed top-0 left-0 right-0 z-10"}>
                 <div className="flex items-center space-x-1 cursor-pointer group">
                     <img src={Logo1} alt="" className=" w-20 md:w-24 group-hover:opacity-70"/>
                 </div>
                 <div className={Scroll?"lg:hidden text-3xl cursor-pointer flex items-center text-black space-x-4": "lg:hidden space-x-4 blkock text-3xl cursor-pointer flex items-center text-[#3C6CA8]"}>
-                    <div onClick={() => window.location.href = "tel:9729430322"} className={`${Scroll? "bg-green-400" : "border-0" } p-[6px] rounded-full`}>
+                    <div onClick={() => window.location.href = "tel:4255200692"} className={`${Scroll? "bg-green-400" : "border-0" } p-[6px] rounded-full`}>
                         <FontAwesomeIcon className= {`${Scroll? "text-white" : "text-green-400"} flex text-sm`} icon = {faPhone}/>
                     </div>
 

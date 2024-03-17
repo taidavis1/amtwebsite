@@ -3,7 +3,6 @@ import {Swiper , SwiperSlide} from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import './test.css'
-import {Pagination} from "swiper/modules";
 import Data from "./Data";
 
 export default function SwiperPos(){
@@ -25,7 +24,7 @@ export default function SwiperPos(){
                 {Data.SwiperData.map((d) => (
                     <SwiperSlide key={d.id} className="">
                         <div className="cursor-pointer border-2 rounded-lg hover:border-main-color transition-colors duration-200 delay-100 ease-in-out p-4">
-                            <div className=" sticky lg:h-[500px]">
+                            <div className=" sticky h-[300px] lg:h-[500px]">
                                 <img alt="#" className="rounded-lg h-full" src={d.img} />
                                 <div onClick={() => {
                                     window.open(`${d.link}` , '_blank');
